@@ -9,7 +9,7 @@ function App() {
   ]
   return (
     <div className="App">
-      <Todos items={["Learn React", "learn Typescript"]} />
+      <Todos items={todos} />
     </div>
   );
 }
